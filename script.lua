@@ -42,7 +42,7 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
-local slur1 = slur:NewSection("fslur")
+local slurs1 = slurs:NewSection("fslur")
 slurs1:NewButton("fauhgot", "ok", function()
 local words = {
     'fauhgot',
@@ -149,7 +149,6 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
-local threat1 = threat:NewSection("kill yourself")
 threat1:NewButton("@kill yourself", "ok", function()
 local words = {
     '@kill yourself',
