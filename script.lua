@@ -42,6 +42,17 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
+local slur1 = slur:NewSection("fslur")
+slurs1:NewButton("fauhgot", "ok", function()
+local words = {
+    'fauhgot',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
 local sex = Window:NewTab("Sexual things")
 local sex1 = sex:NewSection("boobs")
 sex1:NewButton("@bigboobs", "ok", function()
