@@ -127,7 +127,7 @@ local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageReque
 event:FireServer(words[math.random(#words)], "All")
 end)
 local sex1 = sex:NewSection("pussy")
-sex1:NewButton("@tightass", "ok", function()
+sex1:NewButton("@underagepuzzy", "ok", function()
 local words = {
     '@underagepuzzy',
 }
@@ -137,9 +137,9 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
-sex1:NewButton("@tightass", "ok", function()
+sex1:NewButton("@minourpuzzy", "ok", function()
 local words = {
-    '@underagepuzzy',
+    '@minourpuzzy',
 }
 
 local player = game.Players.LocalPlayer
