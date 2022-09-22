@@ -12,36 +12,6 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
-slurs1:NewButton("lkillniggas.com", "ok", function()
-local words = {
-    'lkillniggas.com',
-}
-
-local player = game.Players.LocalPlayer
-
-local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
-event:FireServer(words[math.random(#words)], "All")
-end)
-slurs1:NewButton("demniggas.com", "ok", function()
-local words = {
-    'demniggas.com',
-}
-
-local player = game.Players.LocalPlayer
-
-local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
-event:FireServer(words[math.random(#words)], "All")
-end)
-slurs1:NewButton("killallniggas,com", "ok", function()
-local words = {
-    'killallniggas,com',
-}
-
-local player = game.Players.LocalPlayer
-
-local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
-event:FireServer(words[math.random(#words)], "All")
-end)
 local slurs1 = slurs:NewSection("fslur")
 slurs1:NewButton("fauhgot", "ok", function()
 local words = {
