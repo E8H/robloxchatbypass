@@ -128,9 +128,20 @@ event:FireServer(words[math.random(#words)], "All")
 end)
 local threat = Window:NewTab("threats")
 local threat1 = threat:NewSection("kill yourself")
-threat1:NewButton("@kill yourself", "ok", function()
+threat1:NewButton("@killyourself", "ok", function()
 local words = {
     '@killyourself',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
+local threat1 = threat:NewSection("kill yourself")
+threat1:NewButton("@kill yourself", "ok", function()
+local words = {
+    '@kill yourself',
 }
 
 local player = game.Players.LocalPlayer
