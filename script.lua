@@ -164,3 +164,13 @@ local sets1 = sets:NewSection("ui key")
 sets1:NewKeybind("Keybind", "Keybind", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
+sets1:NewButton("promo", "ok", function()
+local words = {
+    'Defiant0001 the best chat bypass since 01',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
