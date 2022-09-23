@@ -147,7 +147,17 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
-local sex1 = sex:NewSection("cum")
+sex1:NewButton("sweatypussy", "ok", function()
+local words = {
+    'sweatypussy',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
+local sex1 = sex:NewSection("random")
 sex1:NewButton("sCum", "ok", function()
 local words = {
     'sCum',
@@ -168,7 +178,26 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
-sex1 = sex:NewSection("porn")
+sex1:NewButton("@squirtonme", "ok", function()
+local words = {
+    '@squirtonme',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
+sex1:NewButton("@pissonme", "ok", function()
+local words = {
+    '@pissonme',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
 sex1:NewButton("HotPornVideos.com", "ok", function()
 local words = {
     'HotPornVideos.com',
