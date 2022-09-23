@@ -96,7 +96,37 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
+sex1:NewButton("@fatass", "ok", function()
+local words = {
+    '@fatass',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
+sex1:NewButton("@canisniffurass", "ok", function()
+local words = {
+    '@canisniffurass',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
 local sex1 = sex:NewSection("pussy")
+sex1:NewButton("@canilickurpussy", "ok", function()
+local words = {
+    '@canilickurpussy',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
 sex1:NewButton("@underagepuzzy", "ok", function()
 local words = {
     '@underagepuzzy',
@@ -165,6 +195,17 @@ end)
 threat1:NewButton("@kill yourself", "ok", function()
 local words = {
     '@kill yourself',
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
+threat1:NewButton("@suicide", "ok", function()
+local words = {
+    '@suicide',
+      'commit',
 }
 
 local player = game.Players.LocalPlayer
