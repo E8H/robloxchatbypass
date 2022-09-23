@@ -213,6 +213,17 @@ local player = game.Players.LocalPlayer
 local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 event:FireServer(words[math.random(#words)], "All")
 end)
+threat1:NewButton("kvys", "ok", function()
+local words = {
+    'kvys',
+ 
+}
+
+local player = game.Players.LocalPlayer
+
+local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+event:FireServer(words[math.random(#words)], "All")
+end)
 local sets = Window:NewTab("settings")
 local sets1 = sets:NewSection("ui key")
 sets1:NewKeybind("Keybind", "Keybind", Enum.KeyCode.F, function()
